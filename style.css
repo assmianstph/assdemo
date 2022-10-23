@@ -1,0 +1,121 @@
+.form-bg
+{
+    background: linear-gradient(#141e30,#243b55);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.login
+{
+    padding: 50px;
+    width: 400px;
+    padding: 10px;
+     font-family: "lato", sans-serif;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 20px rgba(0,0,0.6);
+    border-bottom: 1.5px solid #03e9f4;
+    border-radius: 20px;
+
+}
+.login .box-icon
+{
+    color: #fff;
+    font-size: 100px;
+    line-height: 85px;
+    margin: 0 0 13px;
+}
+.login .title
+{
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+.login .form-group
+{
+    margin: 0 0 10px;
+    position: relative;
+}
+.login .input-icon
+{
+    position: absolute;
+    left: 15%;
+    top: 25%;
+    transform: translate(-10%);
+    font-size: 20px;
+    color: rgb(158, 68, 68);
+}
+.login .form-btn
+{
+    height: 40px;
+    padding: 2px 15px 2px 45px;
+    border: none;
+    border-radius: 15px;
+}
+.login .form-group
+{
+    position: relative;
+    padding: 3%;
+}
+.login .form-group input
+{
+    width: 80%;
+    color: #fff;
+    border: none;
+    border-top: 0.5px solid #03e9f4;
+    border-bottom: 1px solid #03e9f4;
+    outline: none;
+    background: transparent;
+
+}
+.login .form-group label
+{
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    color: #03e9f4;
+    pointer-events: none;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.login .form-group input:focus ~ label,
+.login .form-group input:valid ~ label
+{
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+.login .check
+{
+    position: absolute;
+    left: 40%;
+}
+
+.container
+{
+
+}
+.login p
+{
+    left: -10%;
+    position: relative;
+    font-size: 13px;
+    color: darkgray;
+    cursor: pointer;
+}
+.login p span
+{
+    color: #03e9f4;
+    float: right;
+}
+.login .con
+{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
